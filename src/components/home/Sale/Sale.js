@@ -25,7 +25,7 @@ const Sale = () => {
               <span className="text-4xl md:text-5xl lg:text-5xl font-bold">
                 30%
               </span>{" "}
-              sales for all impriamnte{" "}
+              sales for all imprimante{" "}
             </p>
             <div className=" mb-8">
               <ShopNow />
