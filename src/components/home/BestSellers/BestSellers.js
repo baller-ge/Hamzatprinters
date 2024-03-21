@@ -25,7 +25,7 @@ const BestSellers = () => {
         <Product
           _id="1012"
           img={bestSellerTwo}
-          productName="Ancre"
+          productName="Encre"
           price="180.00"
           color="Gray"
           badge={false}

@@ -44,7 +44,7 @@ const CustomSlide = ({ Subtext, imgSrc, text, buttonLink, buttonText }) => (
         {Subtext}
       </p>
 
-      <Link to="/about">
+      <Link to={buttonLink}>
         <button className="bg-primeColor text-white text-lg font-bodyFont w-[185px] h-[50px] hover:bg-black duration-300 font-bold">
           {buttonText}
         </button>
@@ -154,25 +154,27 @@ const Banner = () => {
       imgSrc: bannerImgOne,
       text: "Enhance Your Printing Experience",
       Subtext:
-        "Explore our premium printers and consumables for exceptional results",
-      buttonLink: "/offer",
+        "Explore our premium printers and products for exceptional results",
       buttonText: "Shop Now",
+      buttonLink: "/shop",
     },
+   
     {
       imgSrc: bannerImgOne,
       text: "Quality Printing Solutions",
       Subtext:
         "Discover our wide range of printers and consumables designed for professional printing needs.",
       buttonLink: "/shop",
-      buttonText: "About-us",
+      buttonText: "Shop Now",
     },
+    
     {
       imgSrc: bannerImgOne,
       text: "Efficiency Redefined",
       Subtext:
-        "Maximize productivity with our advanced printers and high-quality consumables. ",
-      buttonLink: "/contact",
-      buttonText: "Contact-us",
+        "Maximize productivity with our advanced printers and high-quality products. ",
+      buttonText: "Shop Now",
+      buttonLink: "/shop",
     },
 
     // Add more slides as needed

@@ -116,7 +116,7 @@ const SignUp = () => {
         zip
       ) {
         setSuccessMsg(
-          `Dear ${clientName}, Welcome you to Hamzat Printers Admin panel. We received your Sign up request. We are processing to validate your access. Till then stay connected and additional assistance will be sent to you by your mail at ${email}`
+          `Dear ${clientName}, Welcome to Hamzat Printers Admin panel. We received your Sign up request. We are currently processing your account. Additional information and instructions would be sent to your mail at ${email}`
         );
         setClientName("");
         setEmail("");
@@ -241,14 +241,14 @@ const SignUp = () => {
                 {/* Email */}
                 <div className="flex flex-col gap-.5">
                   <p className="font-titleFont text-base font-semibold text-gray-600">
-                    Work Email
+                    Email
                   </p>
                   <input
                     onChange={handleEmail}
                     value={email}
                     className="w-full h-8 placeholder:text-sm placeholder:tracking-wide px-4 text-base font-medium placeholder:font-normal rounded-md border-[1px] border-gray-400 outline-none"
                     type="email"
-                    placeholder="john@workemail.com"
+                    placeholder="johndoe@workemail.com"
                   />
                   {errEmail && (
                     <p className="text-sm text-red-500 font-titleFont font-semibold px-4">

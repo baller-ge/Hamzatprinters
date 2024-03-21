@@ -120,7 +120,7 @@ const Cart = () => {
               Your Cart feels lonely.
             </h1>
             <p className="text-sm text-center px-10 -mt-2">
-              Your Shopping cart lives to serve. Give it purpose - fill it with
+              Your shopping cart lives to serve. Give it purpose - fill it with
               products and make it happy.
             </p>
             <Link to="/shop">
